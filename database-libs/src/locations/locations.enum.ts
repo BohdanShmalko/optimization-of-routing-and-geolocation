@@ -1,3 +1,3 @@
-export enum ELocations {
+export enum EAlgorithms {
 
 }
