@@ -2,7 +2,7 @@ import {Prop, Schema, SchemaFactory} from '@nestjs/mongoose';
 import {Document, Schema as MongooseSchema} from 'mongoose';
 import {ECollections} from "../collections.enum";
 import * as mongoose from "mongoose";
-import {EDevices} from "./device.enum";
+import {EDevices} from "./devices.enum";
 
 export type DevicesDocument = Devices & Document;
 

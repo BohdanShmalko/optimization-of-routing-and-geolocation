@@ -4,5 +4,8 @@ export enum ECollections {
     LocationSteps = 'LocationSteps',
     UserLocations = 'UserLocations',
     Errors = 'Errors',
-    Devices = 'Devices'
+    Devices = 'Devices',
+    ActivePhones = 'ActivePhones',
+    Rooms = 'Rooms',
+    UserRooms = 'UserRooms',
 }

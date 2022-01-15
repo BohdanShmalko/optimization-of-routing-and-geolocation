@@ -10,6 +10,9 @@ export class Users {
     @Prop({required: true, index: true})
     phoneNumber: string;
 
+    @Prop({index: true})
+    token: string;
+
     @Prop({ required: true, enum: EAlgorithms })
     algorithm: string
 }

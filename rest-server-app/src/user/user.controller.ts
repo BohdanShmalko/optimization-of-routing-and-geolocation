@@ -5,8 +5,18 @@ import {UserService} from './user.service';
 export class UserController {
   constructor(private readonly service: UserService) {}
 
+  @Post('sendCode')
+  sendCode(): string {
+    return this.service.sendCode();
+  }
+
+  @Post('confirmCode')
+  confirmCode(): string {
+    return this.service.confirmCode();
+  }
+
   @Post('login')
-  loginUser(): string {
+  loginByToken(): string {
     return this.service.loginUser();
   }
 }

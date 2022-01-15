@@ -9,9 +9,9 @@ export class RouteService {
         return 'Hello World!';
     }
 
-    routeToUser(): string {
-        return 'Hello World!';
-    }
+    // routeToUser(): string {
+    //     return 'Hello World!';
+    // }
 
     routeToPlace(): string {
         return 'Hello World!';

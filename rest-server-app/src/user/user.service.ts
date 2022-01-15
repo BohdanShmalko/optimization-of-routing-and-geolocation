@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import {Injectable, Post} from '@nestjs/common';
 
 @Injectable()
 export class UserService {
@@ -7,5 +7,13 @@ export class UserService {
 
   loginUser(): string {
     return 'Hello World!';
+  }
+
+  sendCode(): string {
+    return;
+  }
+
+  confirmCode(): string {
+    return;
   }
 }

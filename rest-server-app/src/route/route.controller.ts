@@ -10,10 +10,10 @@ export class RouteController {
     constructor(private readonly service: RouteService) {
     }
 
-    @Get('user')
-    routeToUser(){
-        return this.service.routeToUser();
-    }
+    // @Get('user')
+    // routeToUser(){
+    //     return this.service.routeToUser();
+    // }
 
     @Get('place')
     routeToPlace(){
